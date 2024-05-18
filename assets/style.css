@@ -1,0 +1,10 @@
+header {
+    background-color: rgb(55, 208, 255);
+}
+/* Classe começa com . e Id começa om # */
+.header{
+    background-color: black;
+}
+#header{
+    background-color: chartreuse;
+}
