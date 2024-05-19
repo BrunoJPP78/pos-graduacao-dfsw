@@ -41,17 +41,44 @@
     <div class="container">
         <!-- Topo -->
         <header class="text-center header" id="id_home">
-            <h1>Bruno José</h1>
-            <h4>Desenvolvedor Full Stack</h4>
+            <h1>Bruno Lima</h1>
+            <h5>Desenvolvedor Web Full Stack</h5>
+            <a href="https://www.linkedin.com/in/brunojoselima/" target="_blank" rel="noopener noreferrer">
+                <img class="imagens_logos" src="assets/imgs/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/BrunoJPP78" target="_blank" rel="noopener noreferrer">
+                <img class="imagens_logos" src="assets/imgs/github.png" alt="GitHub">
+            </a>
         </header>
         <!-- Corpo -->
         <section class="display-flex bio">
             <section class="img-bio" >
-                <img src="assets/imgs/1645575965982.jpg" alt="foto_desenvolvedor">
+                <img src="assets/imgs/1645575965982.jpg" alt="Bruno Lima - Desenvolvedor Full Stack">
             </section>
             <div class="margin-left-15">
                 <h2>Sobre mim</h2>
-                <p>Desenvolvedor Web Full Stack Júnior, com habilidades em linguagem Python | Django Rest Framework | Angular | Cordova | Metodologias Ágeis |</p>
+                <p>Desenvolvedor Web Full Stack Júnior, com habilidades em linguagens como Python | TypeScript | JavaScript |</p>
+                <p><b>Frameworks: </b>Django Rest Framework | Angular | Apache Cordova</p>
+                <div class="display-flex" id="imagens_logos">
+                    <a href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer">
+                        <img class="imagens_logos" src="assets/imgs/python.png" alt="python">
+                    </a>
+                    <a href="https://docs.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="imagens_logos" src="assets/imgs/django.png" alt="django">
+                    </a>
+                    <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank" rel="noopener noreferrer">
+                        <img class="imagens_logos" src="assets/imgs/typescript.png" alt="typescript">
+                    </a>
+                    <a href="https://angular.io/docs" target="_blank" rel="noopener noreferrer">
+                        <img class="imagens_logos" src="assets/imgs/angular.png" alt="angular">
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+                        <img class="imagens_logos" src="assets/imgs/javascript.png" alt="javascript">
+                    </a>
+                    <a href="https://cordova.apache.org/docs/en/11.x/" target="_blank" rel="noopener noreferrer">
+                        <img class="imagem_logo_cordova" src="assets/imgs/cordova.png" alt="cordova">
+                    </a>
+                </div>
             </div>
         </section>
         <section id="id_experiencia">
@@ -61,13 +88,13 @@
                     <b>SOFT Plant Performance</b>
                     <ul> <!-- LISTA NÃO ORDENADA-->
                         <li>Cargo: Estagiário Desenvolvedor Full Stack</li>
-                        <li>Setor: TI</li>
+                        <li>Setor: Desenvolvimento</li>
                         <li>Tempo: ago 2023 - fev 2024</li>
                     </ul>
                     <b>Fábrica de Software UBTech Office</b>
                     <ul>
                         <li>Cargo: Estagiário Desenvolvedor Back End </li>
-                        <li>Setor: TI</li>
+                        <li>Setor: Desenvolvimento</li>
                         <li>Tempo: mar de 2023 - jul de 2023</li>
                     </ul>
                 </p>
@@ -119,7 +146,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui..."></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="formFileMultiple" class="form-label">Anexe seu Currículo</label>
@@ -130,8 +157,13 @@
                 </div>
         </section>
         <footer>
-            Dev. Bruno José &copy; Direitos Reservados
+            Dev. Bruno Lima &copy; Direitos Reservados
         </footer>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
